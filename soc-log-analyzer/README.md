@@ -256,6 +256,3 @@ Failures show as a red check with the failing test output in the job log.
 
 كل البيانات في المشروع **وهمية**، والمشروع تعليمي وليس جاهزًا للإنتاج.
 
-## License
-
-MIT - see [LICENSE](LICENSE). Replace `[Your Name]` in the license file with your name.
