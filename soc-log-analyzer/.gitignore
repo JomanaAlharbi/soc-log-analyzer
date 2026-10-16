@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated reports (keep only the placeholder)
+reports/*
+!reports/.gitkeep
+
+# Logs: only the synthetic sample is tracked. Never commit real logs.
+logs/*
+!logs/sample_auth.csv
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

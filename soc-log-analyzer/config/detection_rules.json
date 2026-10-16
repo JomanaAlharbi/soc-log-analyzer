@@ -1,0 +1,25 @@
+{
+  "_comment": "Thresholds and time windows for the SOC Log Analyzer. Keys starting with an underscore are ignored.",
+  "failed_login_by_ip": {
+    "threshold": 5,
+    "window_minutes": 10
+  },
+  "failed_login_by_user": {
+    "threshold": 5,
+    "window_minutes": 10
+  },
+  "success_after_failures": {
+    "threshold": 3,
+    "window_minutes": 15
+  },
+  "multiple_accounts_from_ip": {
+    "threshold": 3,
+    "window_minutes": 10
+  },
+  "business_hours": {
+    "start_hour": 8,
+    "end_hour": 18,
+    "business_days": [0, 1, 2, 3, 4],
+    "utc_offset_hours": 0
+  }
+}
